@@ -28,7 +28,7 @@
 *.app
 
 # Config files
-config.php
+#config.php commented out for docker
 serverConfig.php
 
 #IDE files
