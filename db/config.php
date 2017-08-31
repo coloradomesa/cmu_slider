@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 
 return array(
     "host" => getenv("MYSQL_HOST"),
@@ -8,3 +9,13 @@ return array(
 )
 
 ?>
+=======
+return array(
+    "host" => "",
+    "database" => "",
+    "username" => "",
+    "password" => ""
+);
+
+?>
+>>>>>>> master
