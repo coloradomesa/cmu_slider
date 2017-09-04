@@ -59,7 +59,7 @@ function getSlideById($id){
 
 function expired($slide){
 	$today = new DateTime();
-	$today.date_default_timezone_set("America/Denver");
+	//$today.date_default_timezone_set("America/Denver");
 	if ($today >= new DateTime($slide['startDate'], new DateTimeZone('America/Denver')) && $today <= new DateTime($slide['endDate'], new DateTimeZone('America/Denver')) ) {
 		return false;
 	}
@@ -68,7 +68,7 @@ function expired($slide){
 
 function isFuture($slide){
 	$today = new DateTime();
-	$today.date_default_timezone_set("America/Denver");
+	//$today.date_default_timezone_set("America/Denver");
 	if ($today <= new DateTime($slide['startDate']) ) {
 		return true;
 	}
