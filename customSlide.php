@@ -29,7 +29,7 @@ session_start();
   function ready(){
     setHeight();
     initializeSlider();
-    setInterval(getNextSlide, 3000);
+    setInterval(getNextSlide, 30000);
   }
 
   function setHeight(){
